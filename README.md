@@ -18,10 +18,13 @@ work in progress in the database in real time.
 • After refresh respective task should be in respective columns.
 
 my task-
+i use npm init -g to generate package.json file.
+i use npm i mongoose to install mongoose package .
+i use npm i express to install express package.
 i use postmen as frontend .
 i write to two api create and update as your given task and api hit to postman
 url path of create api->localhost:3000/createform ->this url path hit to postman
-url path of update api->localhost:3000/updateform/:formid -> this url path hit to postman
+url path of update api->localhost:3000/updateform/621d4778f4cb2d887194cf2c -> this url path hit to postman
 i design schema like->
 const FormSchema=mongoose.Schema({
     title:{type:String},
